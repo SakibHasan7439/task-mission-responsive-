@@ -118,21 +118,8 @@
     font-family: Poppins;
 }
 
-/* .first-image-container {
-    width: 100%;
-    position: relative;
-} */
-
-/* .first-image-container .ring-icon {
-    width: 60%;
-    position: absolute;
-    left: 0;
-    top: 3rem;
-} */
-
 .coding-img {
     width: 100%;
-    /* position: absolute; */
 }
 
 .coding-img img {
@@ -192,4 +179,122 @@
     color: rgb(217, 219, 225);
     font-family: poppins;
     font-size: 0.3rem;
+}
+
+/* responsive for large device */
+
+@media screen and (min-width: 993px) {
+    #hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .hero-texts {
+        width: 50%;
+        padding-right: 15%;
+    }
+
+    .hero-title {
+        font-size: 2.8rem;
+    }
+    
+    .hero-image {
+        width: 50%;
+    }
+    
+    .hero-image img {
+        width: 80%;
+    }
+
+    .primary-btn {
+        padding: 0.8rem 1.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .mission-vision-goal {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.2rem;
+        margin-bottom: 3rem;
+    }
+
+    .mission {
+        width: calc(33% - 1.2rem);
+    }
+
+    .vision {
+        width: calc(33% - 1.2rem);
+    }
+
+    .goal {
+        width: calc(33% - 1.2rem);
+        margin-bottom: 1rem;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .first-image-container {
+        width: calc(50% - 2rem);
+    }
+
+    .coding-img img {
+        width: 100%;
+    }
+
+    .second-img-container {
+        width: calc(50% - 2rem);
+    }
+
+    .meeting-img img {
+        width: 100%;
+    }
+
+    .gallery-text-container {
+        width: 50%;
+        padding-right: 4rem;
+    }
+
+    .application-detail {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .application-img {
+        width: calc(50% - 50px);
+    }
+
+    .application-img img {
+        width: 100%;
+    }
+
+    .app-info {
+        width: calc(50% - 50px);
+        padding-left: 10%;
+    }
+
+    .footer-title {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .footer-subtitle {
+        font-size: 0.8rem;
+    }
+
+    #span-id {
+        display: inline;
+    }
 }
